@@ -19,7 +19,7 @@ steve.learn(some_knowledge)
 
 steve.learn(avi.teach)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.join(", ")}' from Avi"
+puts "Steve just learned this important knowledge: #{steve.knowledge.join(", ")} from Avi"
 
 
 
