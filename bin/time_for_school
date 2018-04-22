@@ -26,4 +26,4 @@ puts "Steve just learned this important knowledge: #{steve.knowledge.join(", ")}
 jim=Student.new
 jim.first_name="Jim"
 jim.last_name="Halpert"
-2.times {jim.learn(some_knowledge)}
+2.times {jim.learn(avi.teach)}
