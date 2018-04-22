@@ -17,15 +17,13 @@ some_knowledge = avi.teach
 
 steve.learn(some_knowledge)
 
-steve.learn(avi.teach)
+3.times {steve.learn(avi.teach)}
+#steve.learn(avi.teach)
+#steve.learn(avi.teach)
 
 puts "Steve just learned this important knowledge: #{steve.knowledge.join(", ")} from Avi"
 
-
-
-#puts steve.knowledge
-
-#jim=User.new
-#jim.first_name="Jim"
-#jim.last_name="Halpert"
-#jim.learn(some_knowledge)
+jim=Student.new
+jim.first_name="Jim"
+jim.last_name="Halpert"
+jim.learn(some_knowledge)
