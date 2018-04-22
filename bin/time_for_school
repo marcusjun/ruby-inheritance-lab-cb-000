@@ -20,7 +20,7 @@ steve.learn(some_knowledge)
 2.times {steve.learn(avi.teach)}
 #steve.learn(avi.teach)
 
-puts "Steve just learned this important knowledge: #{steve.knowledge.join("\n")} from Avi"
+puts "Steve just learned this important knowledge: #{steve.knowledge.join(", ")} from Avi"
 
 jim=Student.new
 jim.first_name="Jim"
