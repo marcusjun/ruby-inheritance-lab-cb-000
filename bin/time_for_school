@@ -28,4 +28,5 @@ jim.first_name="Jim"
 jim.last_name="Halpert"
 2.times {jim.learn(avi.teach)}
 
+puts "Jim has learned the following concepts:"
 jim.knowledge.each {|concept| puts concept}
