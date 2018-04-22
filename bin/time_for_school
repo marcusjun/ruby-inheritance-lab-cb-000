@@ -27,3 +27,5 @@ jim=Student.new
 jim.first_name="Jim"
 jim.last_name="Halpert"
 2.times {jim.learn(avi.teach)}
+
+jim.knowledge.each {|concept| puts concept}
